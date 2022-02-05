@@ -7,7 +7,7 @@ Just some exercises and stuff stored here for future reference.
 - [x] Input/output
 - [x] Conditonals
 - [x] Case statements
-- [ ] Strings
+- [x] Strings
 - [ ] Functions
 - [ ] Primitive types
 - [ ] Classes
