@@ -16,8 +16,9 @@ Just some exercises and stuff stored here for future reference.
 - [ ] Memory management features
 - [ ] Pointers
 - [ ] Exceptions
-- [ ] GUI
+- [ ] File management
 - [ ] Header files
 - [ ] Imports
 - [ ] Multi-file programs
     - [ ] Makefiles
+- [ ] GUI
