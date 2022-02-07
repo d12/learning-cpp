@@ -9,7 +9,7 @@ Just some exercises and stuff stored here for future reference.
 - [x] Case statements
 - [x] Strings
 - [x] Functions
-- [ ] Primitive types
+- [x] Primitive types
 - [ ] Classes
   - [ ] Inheritence
   - [ ] Visibility
