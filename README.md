@@ -8,7 +8,7 @@ Just some exercises and stuff stored here for future reference.
 - [x] Conditonals
 - [x] Case statements
 - [x] Strings
-- [ ] Functions
+- [x] Functions
 - [ ] Primitive types
 - [ ] Classes
   - [ ] Inheritence
