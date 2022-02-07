@@ -1,0 +1,15 @@
+- C++ has OOP-style classes with inheritance.
+- Similar syntax to define a class as other languages.
+  - Make sure to add a ; following the closing `}` of the class definition
+- `this` in the constructor is a `*klass` so you need to use `->` to access properties.
+- There are multiple types of constructors (haven't learned them yet)
+- Define `~Klass()` to create a destructor which runs when a class instance is destroyed.
+  - Use it to clean up sub-objects allocated by the instance.
+- Two ways to initialize an instance, `new Klass()` or `Klass()`
+  - `Klass()` allocates the object on the stack. This means:
+    - You cannot use a pointer to this object outside of the current scope. E.g. no returning this pointer from a function.
+    - The instance does not need to be manually deallocated since stack space is auto-free'd when the stack frame is popped.
+  - `new Klass()` allocates the object on the heap.
+    - This memory is more persistent and can be used even once the current stack frame has been popped.
+    - `new Klass()` returns a pointer.
+    - This memory is never cleaned up by the system and must be explicitly `delete`d when it's not needed anymore. Failure to do so results in a memory leak.
